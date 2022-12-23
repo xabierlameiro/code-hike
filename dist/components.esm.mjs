@@ -2517,7 +2517,7 @@ function DefaultTitleBar({ title }) {
 function FrameButtons({ render, }) {
     const c = useClasser("ch-frame");
     if (render) {
-        return React.createElement(React.Fragment, null, "render()");
+        return render();
     }
     return (React.createElement("div", { className: c("buttons") },
         React.createElement("div", { className: c("button", "button-left") }),
