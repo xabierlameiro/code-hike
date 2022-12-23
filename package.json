@@ -1,6 +1,6 @@
  {
   "name": "@xabierlameiro/code-hike",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "files": [
     "dist",
     "components.d.ts"
