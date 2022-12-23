@@ -1896,7 +1896,7 @@ function addSmartImport(tree, componentNames) {
     });
     tree.children.unshift({
         type: "mdxjsEsm",
-        value: `import { ${specifiers.join(", ")} } from "@code-hike/mdx/dist/components.cjs.js"`,
+        value: `import { ${specifiers.join(", ")} } from "@xabierlameiro/code-hike/dist/components.cjs.js"`,
         data: {
             estree: {
                 type: "Program",
@@ -1916,8 +1916,8 @@ function addSmartImport(tree, componentNames) {
                         })),
                         source: {
                             type: "Literal",
-                            value: "@code-hike/mdx/dist/components.cjs.js",
-                            raw: '"@code-hike/mdx/dist/components.cjs.js"',
+                            value: "@xabierlameiro/code-hike/dist/components.cjs.js",
+                            raw: '"@xabierlameiro/code-hike/dist/components.cjs.js"',
                         },
                     },
                 ],
